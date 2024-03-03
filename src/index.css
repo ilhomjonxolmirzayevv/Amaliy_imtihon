@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.globalBtn {
+  background: rgba(16, 187, 135, 1);
+  box-shadow: 0px 9px 25px -4px rgba(72, 123, 108, 0.5);
+  width: 171px;
+  height: 40px;
+  padding: 12px, 30px, 12px, 30px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.body {
+  background-color: #fff;
+}
+
+.pad {
+  padding: 0 250px;
+}
+
+.padd {
+  padding-top: 30px;
+}
+
+.salom {
+  background: #DCE2EF;
+  box-shadow: 0px 4px 7px 0px #00000026;
+  width: fit-content;
+  outline: none;
+}
+
+.salom1 {
+  background: #FFFFFF;
+  padding: 10px;
+  border-radius: 9px;
+  box-shadow: 0px 4px 7px 0px #00000026;
+  width: fit-content;
+}
+
+.input {
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 10px;
+  outline: none;
+}
+
+.footer1 {
+  background-color: rgba(38, 52, 84, 1);
+}
+
+.footer1 h4 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.jumg {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+
+}
+
+.folar {
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+  gap: 30px;
+  padding: 10px 0;
+  flex-wrap: wrap;
+}
+
+
+
+.footer1 p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  color: rgba(227, 227, 227, 1);
+}
+
+.ff1 p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.fillar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 250px; */
+  padding: 20px 0 0 0;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+}
+
+.item h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.modal {
+  display: none;
+}
+
+@media all and (max-width:1450px) {
+  .pad {
+    padding: 0 100px;
+  }
+
+  /* .jinni {} */
+}
+
+@media all and (max-width:1287px) {
+  .pad {
+    padding: 0 100px;
+  }
+
+  .modal {
+    display: unset;
+  }
+
+  .jinni {
+    display: none;
+  }
+}
+
+@media all and (max-width:1147px) {
+  .kilma {
+    display: none;
+  }
+
+  .silma {
+    display: none;
+  }
+  .halim{
+    padding: 0 50px;
+  }
+}
